@@ -1,0 +1,90 @@
+/*body { background-image: url("./source/back4.jpg") }*/
+#display{
+
+    background-color: beige;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 10%;
+    bottom: 10%;
+
+}
+#oneImg{
+
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 30%;
+    height: 30%;
+
+}
+#twoImg{
+
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 30%;
+    height: 30%;
+
+}
+#threeImg{
+
+    position: absolute;
+    left: 65%;
+    top: 5%;
+    width: 30%;
+    height: 30%;
+
+}
+#thirdImg{
+
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    height: 30%;
+    width: 30%;
+
+}
+#fiveImg{
+
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 30%;
+    width: 30%;
+
+}
+#sixImg{
+
+    position: absolute;
+    left: 65%;
+    top: 35%;
+    height: 30%;
+    width: 30%;
+
+}
+#sevenImg{
+
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    height: 30%;
+    width: 30%;
+
+}#eightImg{
+
+     position: absolute;
+     left: 35%;
+     top: 65%;
+     height: 30%;
+     width: 30%;
+  }
+#nineImg{
+
+      position: absolute;
+      left: 65%;
+      top: 65%;
+      height: 30%;
+      width: 30%;
+
+  }
