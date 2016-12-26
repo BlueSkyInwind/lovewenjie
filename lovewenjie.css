@@ -97,13 +97,59 @@
 
 #musicarea{
 
-    background: url("./source/snowman.jpg");
-    width: 40px;
-    height: 40px;
+    background: url("./source/playAnimation.png");
+    width: 20px;
+    height: 20px;
     right: 100px;
     top: 100px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
+
+    animation:mycircle 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+
+
+    -webkit-animation:mycircle 2s; /* Safari and Chrome */
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+
+    -ms-animation:mycircle 2s; /* IE 9*/
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+
 
 }
 
+@keyframes mycircle{
+
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+
+    }
+}
+@-webkit-keyframes mycircle /* Safari and Chrome */
+{
+
+    from {
+        -webkit-transform:rotate(0deg);
+    }
+    to {
+        -webkit-transform:rotate(360deg);
+
+    }
+}
+@-ms-keyframes mycircle {
+
+
+    from {
+        -ms-transform:rotate(0deg);
+    }
+    to {
+        -ms-transform:rotate(360deg);
+
+    }
+}
