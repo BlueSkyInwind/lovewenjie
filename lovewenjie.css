@@ -109,7 +109,6 @@
     animation-iteration-count:infinite;
     animation-timing-function:linear;
 
-
     -webkit-animation:mycircle 2s; /* Safari and Chrome */
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function:linear;
