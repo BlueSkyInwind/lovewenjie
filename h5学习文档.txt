@@ -3,4 +3,6 @@
 
 $.cookie(‘cookieName’,'cookieValue’，｛expires：7，path：’/'，domain: ‘chuhoo.com’，secure: false，raw:false｝);
 
-注：domain：创建cookie所在网页所拥有的域名；secure：默认是false，如果为true，cookie的传输协议需为https；raw：默认为false，读取和写入时候自动进行编码和解码（使用encodeURIComponent编码，使用decodeURIComponent解码），关闭这个功能，请设置为true。
+注：domain：创建cookie所在网页所拥有的域名；
+   secure：默认是false，如果为true，cookie的传输协议需为https；
+   raw：默认为false，读取和写入时候自动进行编码和解码（使用encodeURIComponent编码，使用decodeURIComponent解  码），关闭这个功能，请设置为true。
