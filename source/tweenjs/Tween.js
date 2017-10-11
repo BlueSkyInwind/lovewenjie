@@ -689,7 +689,6 @@ this.createjs = this.createjs||{};
 			}
 			this.target[n] = v;
 		}
-
 	};
 	
 	/**

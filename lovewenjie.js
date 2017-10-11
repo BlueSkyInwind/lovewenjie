@@ -6,5 +6,16 @@ $(document).ready(function () {
 
     $("#display").delay()
 
+    $("img").bind("click",function(){
+        alert("成功")
+        window.location.href = "detailOne.html";
+    })
+
 })
+
+
+
+
+
+
 

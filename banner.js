@@ -1,14 +1,33 @@
 
 
+/*
+ 获取页面I属性D为test的元素：
+
+ document.getElementById("test");
+ //or
+ document.querySelector("#test");
+ document.querySelectorAll("#test")[0];
+ 获取页面class属性为”red”的元素:
+
+ document.getElementsByClassName('red')
+ //or
+ document.querySelector('.red')
+ //or
+ document.querySelectorAll('.red')
+ */
+
+
 var wrap = document.querySelector(".wrap");
 var middle= document.querySelector(".middle");
-var imgs = document.querySelectorAll(".middle>img");
+// var imgs = document.querySelectorAll(".middle>img");
+var imgs = $(".middle>img");
+
 var next = document.querySelector(".next");
 var last = document.querySelector(".last");
 var btns =document.querySelectorAll(".btn>div");
 
 //计算出一帧的距离
-var w = imgs[0].offsetWidth*1;
+var w = imgs[0].offsetWidth;
 var page = 0;
 var btn = 0;
 var timer = null;
@@ -80,7 +99,10 @@ function roll() {
             clearInterval(timer);
         }
         //使用Tween动画
-        var speed = Tween.Linear(t, start, change, d);
+
+        // var speed = createjs.Tween.Linear(t, start, change, d);
+        var speed = createjs.Tween.get(middle, {loop: -1})
+            .to({left:end}, d, createjs.Ease.linear);
         middle.style.left = speed + "px";
     }, 30)
 }
