@@ -145,7 +145,7 @@ var snowFall = (function () {
         snowFlake({
             canvas: buffer2,
             width: MAX_FLAKE_SIZE * 0.3,
-            height: MAX_FLAKE_SIZE * 0.3,
+
             color: '#969696',
             soft: 0.05
 
